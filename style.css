@@ -15,12 +15,12 @@ body{
 
 header{
     width: 100%;
-    height: 55rem;
+    height: 53rem;
 }
 
 header img{
     width: 100%;
-    height: 50rem;
+    height: 51rem;
 }
 
 a{
@@ -41,7 +41,109 @@ a{
 
 .navbar-list li{
     padding: 0 7rem;
+}
 
+.navbar-list a:hover{
+    color:black;
+}
+
+.container{
+    padding: 8rem 0;
+}
+
+.title{
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.who p{
+    max-width: 105rem;
+    margin: 0 auto;
+
+}
+p{
+    margin-bottom: 2.5rem;
+    font-size: 1.7rem;
+}
+.who{
+    background-color:#0b72b9;
+    color: white;
+}
+
+.services{
+    background-color: #34495e;
+    color: white;
+}
+
+.services p{
+    max-width: 105rem;
+    margin: 0 auto;
+}
+.service-icon {
+    width: 13rem;
+    height: 9rem;
+    margin-bottom: 2rem;
+    margin-top:3rem;
+}
+
+.angular{
+    width: 9rem;
+}
+
+.vue{
+    width: 10rem;
+}
+
+.services-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-container li{
+    margin: 2rem 3rem;
+    list-style-type: none;
+}
+
+figcaption{
+    font-size: 2rem;
+}
+
+.tarifas{
+    background-image: url('./imagenes/services.jpg');
+    background-repeat: no-repeat;
+    color:white;
+
+}
+
+.tarifas .contain{
+    max-width: 105rem;
+    margin: 0 auto;
+}
+
+.button{
+    border: 2px solid white;
+    padding: 1rem 4rem;
+    text-decoration: none;
+    color:white;
+    font-size: 2rem;
+}
+
+.localization{
+   padding-bottom: 0; 
+}
+
+.localization p{
+    max-width: 105rem;
+    margin:0 auto;
+    margin-bottom: 5rem;
+}
+.localization .map img{
+    max-width: 100%;
+    width: 95%;
+    background-color: red;
 }
 
 
