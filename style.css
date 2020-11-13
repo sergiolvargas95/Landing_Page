@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    text-align: center;
+    font: 300 10px/1.7 'Roboto Condensed';
+}
+
+header{
+    width: 100%;
+    height: 55rem;
+}
+
+header img{
+    width: 100%;
+    height: 50rem;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.navbar-list{
+    font-size: 2.3rem;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    list-style-type: none;
+    background-color: #0b72b9;
+}
+
+.navbar-list li{
+    padding: 0 7rem;
+
+}
+
+
+
+
+
+
